@@ -1,0 +1,112 @@
+# === Python genel ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+*.log
+.DS_Store
+
+# === IDE ayarları ===
+.vscode/
+.idea/
+
+# === Model dosyaları ===
+*.pkl
+*.h5
+*.pt
+*.pth
+*.joblib
+*.onnx
+*.tflite
+
+# === Veri klasörleri ===
+data/
+datasets/
+raw_data/
+input/
+output/
+processed/
+
+# === Geçici veya cache dosyaları ===
+tmp/
+temp/
+logs/
+cache/
+__cache__/
+
+# === Jupyter / Streamlit geçici dosyaları ===
+.ipynb_checkpoints/
+.streamlit/
+
+# === Sonuç / rapor çıktıları ===
+*.csv
+*.xlsx
+*.json
+*.wav
+*.mp4
+*.avi
+*.jpg
+*.png
+
+# === OS (Windows / Mac) ===
+Thumbs.db
+ehthumbs.db
+Icon?
+# === Python cache & env ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+env/
+venv/
+
+# === IDE / OS dosyaları ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === Face Stress Analyzer dizininde hariç tutulacaklar ===
+face_stress_analyzer/data/
+face_stress_analyzer/models/
+face_stress_analyzer/__pycache__/
+face_stress_analyzer/*.log
+face_stress_analyzer/.streamlit/
+face_stress_analyzer/temp/
+face_stress_analyzer/tmp/
+
+# === Model dosyaları (genel olarak) ===
+*.pkl
+*.h5
+*.joblib
+*.pt
+*.onnx
+
+# === Video ve ses verileri ===
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# === CSV, Excel, JSON vs. ===
+*.csv
+*.xlsx
+*.json
+
+# === Face Stress Analyzer dizininde hariç tutulacaklar ===
+face_stress_analyzer/data/
+face_stress_analyzer/models/
+face_stress_analyzer/__pycache__/
+face_stress_analyzer/*.log
+face_stress_analyzer/.streamlit/
+face_stress_analyzer/temp/
+face_stress_analyzer/tmp/
+
